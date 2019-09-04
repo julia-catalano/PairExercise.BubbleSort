@@ -3,12 +3,12 @@ function swap(arr) {
   let secondEl = arr[1];
   arr[0] = secondEl;
   arr[1] = firstEl;
-  console.log("in swap", arr);
+  // console.log("in swap", arr);
   return arr;
 }
 
 function bubbleSort(originalArr) {
-  console.log("original arr", originalArr);
+  // console.log("original arr", originalArr);
   let arr = originalArr.slice();
   let swapCount = 0;
   let comparisons = 0;
@@ -22,15 +22,15 @@ function bubbleSort(originalArr) {
         swapCount++;
       }
     }
-    console.log(
-      "array: ",
-      arr,
-      "swap count: ",
-      swapCount,
-      "comparisons: ",
-      comparisons,
-      "\n"
-    );
+    // console.log(
+    //   "array: ",
+    //   arr,
+    //   "swap count: ",
+    //   swapCount,
+    //   "comparisons: ",
+    //   comparisons,
+    //   "\n"
+    // );
   }
   return arr;
 }
